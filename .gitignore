@@ -1,4 +1,11 @@
-data/tokenizers
+data/tokenizers/*.vocab
+data/tokenizers/fineweb_1024_bpe.model
+final_model.*
+*.ptz
+test_kmeans_compression.py
+train_tokenizer.py
+train_gpt_swiglu.py
+data/docs_selected.source_manifest.json
 __pycache__/
 .DS_Store
 modded-nanogpt/
